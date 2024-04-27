@@ -481,10 +481,13 @@
                       Bad Luck Brian also known as Kyle Edward Craven, is an
                       American Internet celebrity known for his ever present
                       photo posted on Reddit in 2012, which quickly became one
-                      of the most popular internet memes. The iconic trend is
-                      now on the Solana blockchain, Bad Luck $BRIAN is here to
-                      show other original meme's who's boss! Same team from
-                      $SKID Success Kid that reached 30M ATH.
+                      of the most popular internet memes.
+                      <br /><br />
+                      The iconic trend is now on the Solana blockchain, Bad Luck
+                      $BRIAN is here to show other original meme's who's boss!
+                      <br /><br />
+
+                      Same team from $SKID Success Kid that reached 30M ATH.
                     </p>
                   </div>
                 </div>
@@ -702,10 +705,9 @@
                       <p>
                         Connect to Raydium. Go to app.Raydium.org in google
                         chrome or on the browser inside your phantom app.
-                        Connect your wallet. Paste the Bad luck brain token
-                        address into Raydium, select Bad luck brain, and
-                        confirm. When phantom prompts you for a wallet
-                        signature, sign.<br />
+                        Connect your wallet. Paste the $BRIAN token address into
+                        Raydium, select $BRIAN, and confirm. When phantom
+                        prompts you for a wallet signature, sign.<br />
                       </p>
                     </div>
                   </div>
@@ -721,8 +723,8 @@
                     <div class="htb-step-text-cont">
                       <h2 class="htb-title">Swap</h2>
                       <p>
-                        Switch Sol for Bad luck brain. Welcome to the Bad luck
-                        brain family!<br />
+                        Switch Sol for $BRIAN. Welcome to the Bad luck brain
+                        family!<br />
                       </p>
                     </div>
                   </div>
@@ -825,10 +827,7 @@
             "href",
             `https://www.dextools.io/app/en/Soler/pair-explorer/${contractAddress}`
           );
-          $(".buy-link").attr(
-            "href",
-            `https://app.Raydium.org/#/swap?outputCurrency=${contractAddress}`
-          );
+          $(".buy-link").attr("href", `buylink`);
           $(".Solerscan-link").attr(
             "href",
             `https://Solerscan.io/address/${contractAddress}`
@@ -844,10 +843,7 @@
             "src",
             `https://dexscreener.com/Solereum/${contractAddress}?embed=1&theme=dark&trades=0&info=0`
           );
-          $("#uni-embed").attr(
-            "src",
-            `https://app.Raydium.org/#/swap?outputCurrency=${contractAddress}`
-          );
+          $("#uni-embed").attr("src", `buylink`);
           $("#copy-to-clipboard").on("click", function () {
             navigator.clipboard.writeText(contractAddress);
             $(".c2c-txt").text("CA Copied ✓ ");
